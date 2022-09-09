@@ -1,3 +1,27 @@
+//Problem Description: 
+// Design a class named MyInteger. The class contains:  
+// • An int data field named value that stores the int value 
+// represented by this object. 
+// • A constructor that creates a MyInteger object for the 
+// specified int value. 
+// • A get method that returns the int value. 
+// • Methods isEven(), isOdd(), and isPrime() that return true if 
+// the value is even, odd, or prime, respectively. 
+// • Static methods isEven(int), isOdd(int), and isPrime(int) 
+// that return true if the specified value is even, odd, or 
+// prime, respectively. 
+// • Static methods isEven(MyInteger), isOdd(MyInteger), and 
+// isPrime(MyInteger) that return true if the specified value 
+// is even, odd, or prime, respectively. 
+// • Methods equals(int) and equals(MyInteger) that return true 
+// if the value in the object is equal to the specified value. 
+// • A static method parseInt(char[]) that converts an array of 
+// numeric characters to an int value.  
+// • A static method parseInt(String) that converts a string into 
+// an int value.  
+ 
+// Draw the UML diagram for the class. Implement the class. 
+// Write a client program that tests all methods in the class.
 /**
  *
  * @author brandonmcbride
@@ -23,6 +47,27 @@ public static void main(String[] args) {
     System.out.println("n1 is equal to 5? " + n1.equals(5));
   }
 }
+
+// /**
+//  * ********UML Class Diagram********
+//  * 
+// -int value
+// ---------------------------------
+// + Mylnteger(int value)
+// + int getValue()
+// + boolean isPrime
+// + boolean isEven
+// + boolean isOdd
+// + static boolean isEven(int data)
+// + static boolean sOdd(int data)
+// + static boolean isPrime(int data)
+// + static boolean isEven(Mylntegeri)
+// + static boolean isOdd(Mylnteger i)
+// + static boolean isPrime(Mylnteger mi
+// + boolean equals(int data)
+// + boolean equals(Mylnteger mi)
+// + static int parselnt(String s)
+//  */
 
 class MyInteger {
   private int value;
